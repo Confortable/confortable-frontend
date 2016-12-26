@@ -4,7 +4,7 @@
   "license": "MIT",
   "angular-cli": {},
   "scripts": {
-    "start": "# Call 'ng serve' and adjust port and host for development on c9.io\n ng serve -p $PORT --host $IP", 
+    "start": "# Call 'ng serve' and adjust port and host for development on c9.io\n ng serve -p $PORT --host $IP",
     "lint": "tslint \"src/**/*.ts\"",
     "test": "ng test",
     "pree2e": "webdriver-manager update",
@@ -23,6 +23,7 @@
     "core-js": "^2.4.1",
     "feathers": "^2.0.2",
     "feathers-authentication": "^0.7.12",
+    "feathers-authentication-client": "^0.1.6",
     "feathers-hooks": "^1.6.1",
     "feathers-rest": "^1.5.2",
     "feathers-socketio": "^1.4.2",
