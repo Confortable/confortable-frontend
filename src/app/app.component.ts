@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { RestService, SocketService } from './feathers.service';
-import { ScheduleService } from './schedule.service'
+import { RestService, SocketService } from './_services/feathers.service';
+import { ScheduleService } from './schedules/schedule.service'
 
 @Component({
   selector: 'app-root',

@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { RestService, SocketService } from './feathers.service';
+import { RestService, SocketService } from '../_services/feathers.service';
 
 @Injectable()
 export class ScheduleService {

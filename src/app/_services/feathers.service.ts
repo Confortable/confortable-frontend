@@ -8,7 +8,7 @@ const hooks = require('feathers-hooks');
 const rest = require('feathers-rest/client');
 const authentication = require('feathers-authentication-client');
 // The server
-const HOST = 'https://www.server.com';
+const HOST = 'https://confortable-aurerua.c9users.io';
 
 // REST
 @Injectable()
